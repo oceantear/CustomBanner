@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fav_group_text_size">18dp</dimen>
+    <dimen name="fav_item_text_size">18dp</dimen>
+    <dimen name="fav_group_margin">4dp</dimen>
+    <dimen name="fav_item_margin">4dp</dimen>
+    <dimen name="btn_padding">12dp</dimen>
+    <dimen name="title_bar_height">50dp</dimen>
+
+    <dimen name="distance_1">1dp</dimen>
+    <dimen name="distance_2">2dp</dimen>
+    <dimen name="distance_3">3dp</dimen>
+    <dimen name="distance_5">5dp</dimen>
+    <dimen name="distance_7">7dp</dimen>
+    <dimen name="distance_10">10dp</dimen>
+    <dimen name="distance_15">15dp</dimen>
+    <dimen name="distance_20">20dp</dimen>
+    <dimen name="distance_25">25dp</dimen>
+    <dimen name="distance_30">30dp</dimen>
+    <dimen name="distance_40">40dp</dimen>
+    <dimen name="distance_60">60dp</dimen>
+    <dimen name="distance_70">70dp</dimen>
+    <dimen name="distance_200">200dp</dimen>
+    <dimen name="distance_210">210dp</dimen>
+    <dimen name="distance_240">240dp</dimen>
+    <dimen name="distance_300">300dp</dimen>
+    <dimen name="distance_305">305dp</dimen>
+    <dimen name="text_fix_10">10dp</dimen>
+    <dimen name="text_fix_12">12dp</dimen>
+    <dimen name="text_fix_14">14dp</dimen>
+    <dimen name="text_fix_16">16dp</dimen>
+    <dimen name="text_fix_18">18dp</dimen>
+    <dimen name="text_fix_20">20dp</dimen>
+    <dimen name="nav_active_text_size">11dp</dimen>
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="color_red">#ff0000</color>
+    <color name="bg_lunch_selected">#fb7f7f</color>
+    <color name="bg_supper_selected">#4fc6be</color>
+    <color name="color_common_white">#FFFFFF</color>
+    <color name="color_light_grey">#d9d9d9</color>
+    <color name="color_orange">#ffa800</color>
+    <color name="orange">#ff5500</color>
+    <color name="orange2">#FFFFCC00</color>
+    <color name="darkorange">#f7ac00</color>
+    <color name="red">#FF3333</color>
+    <color name="blue">#3399FF</color>
+    <color name="cyan">#31c3e1</color>
+    <color name="btn_purple_1">#5d5dff</color>
+    <color name="btn_purple_2">#7768ff</color>
+</resources>
