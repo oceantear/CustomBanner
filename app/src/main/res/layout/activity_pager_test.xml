@@ -6,7 +6,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:attrs="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:clipChildren="false">
+    android:clipChildren="false"
+    android:background="@color/cardview_dark_background">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -17,7 +18,7 @@
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/vp_horizontal_stack"
             android:layout_width="match_parent"
-            android:layout_height="220dp"
+            android:layout_height="300dp"
             android:layout_marginStart="33dp"
             android:layout_marginEnd="33dp"
             android:layout_marginBottom="10dp"
@@ -43,6 +44,7 @@
         android:src="@drawable/cat"
         android:translationY="5.0dip"
         app:layout_anchor="@id/vp_horizontal_stack"
-        app:layout_anchorGravity="center|top"/>
+        app:layout_anchorGravity="center|top"
+        android:visibility="gone"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

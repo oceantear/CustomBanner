@@ -1,5 +1,6 @@
 package com.example.custombanner;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -48,8 +49,14 @@ public class PagerTestActivity extends AppCompatActivity {
             public void renderItemView(@NonNull View itemView, final int position) {
                 TextView page = itemView.findViewById(R.id.tv_page_index);
                 page.setText("Page :"+ (position + 1));
-                ((CardView)itemView).setCardBackgroundColor(getResources().getColor(colorsRes.get(position)));
-                //itemView.set
+                CardView innerCard = itemView.findViewById(R.id.inner_cardVw);
+                ImageView upperImg = itemView.findViewById(R.id.upImg);
+                innerCard.setCardBackgroundColor(getResources().getColor(colorsRes.get(position)));
+                if(position % 2 == 0)
+                    upperImg.setImageResource(R.drawable.cat);
+                else
+                    upperImg.setImageResource(R.drawable.dog);
+
             }
 
             @NonNull
